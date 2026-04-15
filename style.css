@@ -17,8 +17,8 @@
   --electric: #00ffe1;
   --electric-dim: rgba(0, 255, 225, 0.1);
 
-  --gold: #f0c040;
-  --gold-dim: rgba(240, 192, 64, 0.15);
+  --gold: #b8860b;
+  --gold-dim: rgba(184, 134, 11, 0.15);
 
   --text-primary: #e8f0fe;
   --text-secondary: #8ba3c7;
@@ -163,7 +163,7 @@ ul, ol { list-style: none; }
 
 .btn-primary {
   background: var(--cyan);
-  color: #040810;
+  color: #ffffff;
 }
 .btn-primary:hover {
   background: var(--electric);
@@ -771,7 +771,7 @@ body::before {
   text-transform: uppercase;
   background: var(--gold-dim);
   color: var(--gold);
-  border: 1px solid rgba(240,192,64,0.3);
+  border: 1px solid rgba(184, 134, 11, 0.3);
 }
 
 /* ======================================================
@@ -813,7 +813,7 @@ body::before {
   height: 64px;
   border-radius: 16px;
   background: var(--gold-dim);
-  border: 1px solid rgba(240, 192, 64, 0.3);
+  border: 1px solid rgba(184, 134, 11, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -830,7 +830,7 @@ body::before {
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius-pill);
   background: var(--gold-dim);
-  border: 1px solid rgba(240, 192, 64, 0.3);
+  border: 1px solid rgba(184, 134, 11, 0.3);
   color: var(--gold);
   font-family: 'Space Grotesk', sans-serif;
   font-size: 0.65rem;
@@ -1462,7 +1462,7 @@ body::before {
    FOOTER
 ====================================================== */
 .footer {
-  background: var(--bg-secondary);
+  background: var(--bg-primary);
   border-top: 1px solid var(--border);
   padding: 3rem 0 1.5rem;
   position: relative;
