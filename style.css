@@ -856,6 +856,9 @@ body::before {
 }
 
 .showcase-prize-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   font-size: 0.85rem;
   color: var(--cyan);
   font-weight: 500;
@@ -906,6 +909,20 @@ body::before {
   font-size: 0.85rem;
   color: var(--text-secondary);
   line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.showcase-rubric-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  margin-top: 0.35rem;
+  text-decoration: none;
+}
+
+.showcase-rubric-link:hover {
+  text-decoration: none;
 }
 
 /* Dates Section */
