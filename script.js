@@ -97,6 +97,18 @@
     });
   });
 
+  document.querySelectorAll('.session-expand-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      const controlsId = btn.getAttribute('aria-controls');
+      const bioContent = document.getElementById(controlsId);
+
+      btn.setAttribute('aria-expanded', String(!expanded));
+      bioContent.hidden = expanded;
+      btn.querySelector('span').textContent = expanded ? 'See Full Bio' : 'Hide Full Bio';
+    });
+  });
+
   /* ——————————————— SPEAKER MODAL ——————————————— */
   const modal = document.getElementById('speakerModal');
   const modalClose = document.getElementById('modalClose');
